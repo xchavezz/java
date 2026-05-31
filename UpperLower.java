@@ -28,7 +28,7 @@ public class UpperLower {
         lower_Btn.setBounds(200, 100, 120, 30);
         frame.add(lower_Btn);
 
-        upperBtn.addActionListener(new ActionListener() {
+        upper_Btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = textField.getText();
@@ -36,7 +36,7 @@ public class UpperLower {
             }
         });
 
-        lowerBtn.addActionListener(new ActionListener() {
+        lower_Btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = textField.getText();
