@@ -7,7 +7,7 @@ public class UpperLower {
 
     JFrame frame;
     JTextField textField;
-    JButton upperBtn, lowerBtn;
+    JButton upper_Btn, lower_Btn;
 
     UpperLower() {
 
@@ -17,11 +17,11 @@ public class UpperLower {
 
         upperBtn = new JButton(" TO UPPER");
         upperBtn.setBounds(50, 100, 100, 30);
-        frame.add(upperBtn);
+        frame.add(upper_Btn);
 
         lowerBtn = new JButton(" TO LOWER");
         lowerBtn.setBounds(200, 100, 100, 30);
-        frame.add(lowerBtn);
+        frame.add(lower_Btn);
         
         textField = new JTextField();
         textField.setBounds(50, 40, 250, 30);
