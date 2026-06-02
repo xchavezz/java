@@ -36,8 +36,6 @@ public class BorderLayoutExample implements ActionListener {
         btn3.addActionListener(this);
         btn4.addActionListener(this);
         btn5.addActionListener(this);
-
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
 
