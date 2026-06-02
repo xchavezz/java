@@ -14,28 +14,29 @@ public class BorderLayoutExample implements ActionListener {
         frame = new JFrame();
         frame.setTitle("BorderLayout Example");
         frame.setSize(500, 500);
-        frame.setLayout(new java.awt.BorderLayout());
+        frame.setLayout(new BorderLayout());
 
         btn1 = new JButton("North Button");
-        frame.add(btn1, java.awt.BorderLayout.NORTH);
+        frame.add(btn1,BorderLayout.NORTH);
 
         btn2 = new JButton("South Button");
-        frame.add(btn2, java.awt.BorderLayout.SOUTH);
+        frame.add(btn2,BorderLayout.SOUTH);
 
         btn3 = new JButton("East Button");
-        frame.add(btn3, java.awt.BorderLayout.EAST);
+        frame.add(btn3,BorderLayout.EAST);
 
         btn4 = new JButton("West Button");
-        frame.add(btn4, java.awt.BorderLayout.WEST);
+        frame.add(btn4,BorderLayout.WEST);
 
         btn5 = new JButton("Center Button");
-        frame.add(btn5, java.awt.BorderLayout.CENTER);
+        frame.add(btn5,BorderLayout.CENTER);
 
         btn1.addActionListener(this);
         btn2.addActionListener(this);
         btn3.addActionListener(this);
         btn4.addActionListener(this);
         btn5.addActionListener(this);
+
         frame.setVisible(true);
     }
 
